@@ -1,0 +1,68 @@
+/* font-size: calc(10px + 2vmin); */
+
+.card
+{
+  width: 30%;
+  height: max-content;
+  /* background-color: rgba(0, 76, 255, 0.034); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-radius: 7px;
+  /* box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.05); */
+  background-color: rgb(255, 255, 255);
+  margin: 0px 20px 30px 20px;
+
+
+}
+.card .content
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* padding: 10px; */
+  padding: 0;
+  height:100%;
+  /* background-color: rgba(0, 0, 255, 0.938); */
+}
+.card .content img
+{
+  width: 30%;
+  height: 25vh;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.content .text
+{
+  padding: 15px;
+}
+.card .content .title
+{
+  color: rgba(0, 0, 0, 0.671);
+  font-size: calc(10px + 1.1vmin); 
+  margin-bottom: -5px;
+  font-weight: 500;
+}
+.card .content .date
+{
+  color: rgba(0, 0, 0, 0.671);
+  font-size: calc(10px + .7vmin); 
+  font-weight: 500;
+  margin-bottom: -5px;
+}
+.card .content .paragraph
+{
+  color: rgba(0, 0, 0, 0.671);
+  font-size: calc(10px + 0.5vmin); 
+  font-weight: 500;
+  /* margin-bottom: -5px; */
+  text-align: justify;
+}
+.card .content .state
+{
+  color: rgba(11, 117, 167, 0.671);
+  font-size: calc(10px + .7vmin); 
+  font-weight: 500;
+  margin-bottom: -11px;
+}
